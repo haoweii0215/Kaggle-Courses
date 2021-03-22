@@ -1,4 +1,4 @@
-# Kaggle-Courses
+# Kaggle Courses
   Learning python on `Kaggle`
 
 ### Geospatial Analysis
