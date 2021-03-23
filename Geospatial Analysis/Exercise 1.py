@@ -1,4 +1,8 @@
 # Exercise 1 : Your First Map
+import geopandas as gpd
+from learntools.core import binder
+binder.bind(globals())
+from learntools.geospatial.ex1 import *
 
 ## 1) Get the data.
 ## Use the next cell to load the shapefile located at loans_filepath to create a GeoDataFrame world_loans.
