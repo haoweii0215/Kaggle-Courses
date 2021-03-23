@@ -6,8 +6,8 @@ import pandas as pd
 import geopandas as gpd
 
 ### Read Data
-releases = gpd.read_file("./toxic_release_pennsylvania.shp")
-stations = gpd.read_file("./PhillyHealth_Air_Monitoring_Stations.shp")
+releases = gpd.read_file("./Data/toxic_release_pennsylvania.shp")
+stations = gpd.read_file("./Data/PhillyHealth_Air_Monitoring_Stations.shp")
 
 ### Select one release incident in particular
 recent_release = releases.iloc[360]
