@@ -11,4 +11,4 @@
   _https://www.kaggle.com/alexisbcook/geospatial-learn-course-data_
 
 ### Resource
-_https://www.kaggle.com/learn/geospatial-analysis_
+_https://www.kaggle.com/learn/overview_
