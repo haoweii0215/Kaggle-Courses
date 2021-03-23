@@ -2,7 +2,7 @@
 import geopandas as gpd
 
 ### Read in the data
-full_data = gpd.read_file('./DEClands.shp')
+full_data = gpd.read_file('./Data/DEClands.shp')
 
 data = full_data.loc[:, ["CLASS", "COUNTY", "geometry"]].copy()
 
@@ -13,15 +13,15 @@ wild_lands = data.loc[data.CLASS.isin(['WILD FOREST', 'WILDERNESS'])].copy()
 wild_lands.plot()
 
 ### Campsites in New York state (Point)
-POI_data = gpd.read_file("./Decptsofinterest.shp")
+POI_data = gpd.read_file("./Data/Decptsofinterest.shp")
 campsites = POI_data.loc[POI_data.ASSET=='PRIMITIVE CAMPSITE'].copy()
 
 ### Foot trails in New York state (LineString)
-roads_trails = gpd.read_file("./Decroadstrails.shp")
+roads_trails = gpd.read_file("./Data/Decroadstrails.shp")
 trails = roads_trails.loc[roads_trails.ASSET=='FOOT TRAIL'].copy()
 
 ### County boundaries in New York state (Polygon)
-counties = gpd.read_file("./NY_county_boundaries.shp")
+counties = gpd.read_file("./Data/NY_county_boundaries.shp")
 
 ### Define a base map with county boundaries
 ax = counties.plot(figsize=(10,10), color='none', edgecolor='gainsboro', zorder=3)
