@@ -5,7 +5,7 @@
   
   Exercise code in `Geospatial Analysis / Exercise.py`
   
-  #### Dataset
+#### Geospatial Dataset
   
   _https://www.kaggle.com/alexisbcook/geospatial-learn-course-data_
 
