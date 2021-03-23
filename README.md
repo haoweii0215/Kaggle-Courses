@@ -1,5 +1,5 @@
 # Kaggle Courses
-  Learning python on `Kaggle`
+  Learning and practicing new python skills on `Kaggle`
 
 ### Geospatial Analysis
   

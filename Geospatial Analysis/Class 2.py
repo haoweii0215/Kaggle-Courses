@@ -2,11 +2,11 @@
 import pandas as pd
 
 ### Load a GeoDataFrame containing regions in Ghana
-regions = gpd.read_file("./Map_of_Regions_in_Ghana.shp")
+regions = gpd.read_file("./Data/Map_of_Regions_in_Ghana.shp")
 print(regions.crs)
 
 ### Create a DataFrame with health facilities in Ghana
-facilities_df = pd.read_csv("./health_facilities.csv")
+facilities_df = pd.read_csv("./Data/health_facilities.csv")
 
 ### Convert the DataFrame to a GeoDataFrame
 facilities = gpd.GeoDataFrame(facilities_df, geometry=gpd.points_from_xy(facilities_df.Longitude, facilities_df.Latitude))

@@ -14,7 +14,7 @@ point = result.geometry.iloc[0]
 print("Latitude:", point.y)
 print("Longitude:", point.x)
 
-universities = pd.read_csv("./top_universities.csv")
+universities = pd.read_csv("./Data/top_universities.csv")
 def my_geocoder(row):
     try:
         point = geocode(row, provider='nominatim').geometry.iloc[0]

@@ -7,7 +7,7 @@ from folium.plugins import HeatMap, MarkerCluster
 m_1 = folium.Map(location=[42.32,-71.0589], tiles='openstreetmap', zoom_start=10)
 
 ### Load the data
-crimes = pd.read_csv("./crime.csv", encoding='latin-1')
+crimes = pd.read_csv("./Data/crime.csv", encoding='latin-1')
 
 ### Drop rows with missing locations
 crimes.dropna(['Lat', 'Long', 'DISTRICT'], inplace=True)
@@ -63,7 +63,7 @@ m_5 = folium.Map(location=[42.32,-71.0589], tiles='cartodbpositron', zoom_start=
 HeatMap(data=crimes[['Lat', 'Long']], radius=10).add_to(m_5)
 
 ### GeoDataFrame with geographical boundaries of Boston police districts
-districts_full = gpd.read_file('.Police_Districts.shp')
+districts_full = gpd.read_file('./Data/Police_Districts.shp')
 districts = districts_full[["DISTRICT", "geometry"]].set_index("DISTRICT")
 
 ### Create a base map
