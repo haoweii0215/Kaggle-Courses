@@ -3,7 +3,7 @@
 
 ### Geospatial Analysis
   
-  - Tutorial code in `Geospatial Analysis`, e.g. `Class 1.py`, `Class 2.py`.
+  - Tutorial code in `Geospatial Analysis`, e.g. `Class 1 - Your First Map.py`, `Class 2.py`.
   - Exercise code in `Geospatial Analysis`, e.g. `Exercise 1.py`, `Exercise 2.py`.
   
 #### Geospatial Dataset
