@@ -16,7 +16,6 @@
    _https://www.kaggle.com/alexisbcook/geospatial-learn-course-data_
 
 ## Intermediate Machine Learning
-   -  needs
 
   #### Why I choose this chapter?
    - Learn advanced skills and use in my thesis experiment.
