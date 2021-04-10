@@ -27,8 +27,11 @@
   
   #### Dataset
   _https://www.kaggle.com/maxhorowitz/nflplaybyplay2009to2016_
+  
   _https://www.kaggle.com/nasa/landslide-events_
+  
   _https://www.kaggle.com/kemical/kickstarter-projects_
+  
   _https://www.kaggle.com/zusmani/pakistanintellectualcapitalcs_
 
 ## Intermediate Machine Learning
