@@ -15,6 +15,22 @@
   
    _https://www.kaggle.com/alexisbcook/geospatial-learn-course-data_
 
+## Data Cleaning
+
+  #### Why I choose this chapter?
+   - Learn advanced skills and use in my thesis experiment.
+  
+  #### Learning journey
+  
+  - Tutorial code in `Data Cleaning`, e.g. `Class 1 - Handling Missing Values.py `, `Class 2 - Scaling and Normalization.py`.
+  - Exercise code in `Data Cleaning`, e.g. `Exercise 1.py`, `Exercise 2.py`.
+  
+  #### Dataset
+  _https://www.kaggle.com/maxhorowitz/nflplaybyplay2009to2016_
+  _https://www.kaggle.com/nasa/landslide-events_
+  _https://www.kaggle.com/kemical/kickstarter-projects_
+  _https://www.kaggle.com/zusmani/pakistanintellectualcapitalcs_
+
 ## Intermediate Machine Learning
 
   #### Why I choose this chapter?
