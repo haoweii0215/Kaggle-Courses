@@ -3,15 +3,15 @@
 
 ### Geospatial Analysis
   
-  #### Why I choose this chapter?
+   #### Why I choose this chapter?
    Need to be used on another project.
 
-  #### Learning journey
+    #### Learning journey
   
   - Tutorial code in `Geospatial Analysis`, e.g. `Class 1 - Your First Map.py`, `Class 2 - Coordinate Reference Systems.py`.
   - Exercise code in `Geospatial Analysis`, e.g. `Exercise 1.py`, `Exercise 2.py`.
-  
-  #### Geospatial Dataset
+   
+   #### Geospatial Dataset
   
   _https://www.kaggle.com/alexisbcook/geospatial-learn-course-data_
 
