@@ -1,7 +1,7 @@
 # Kaggle Courses
   Learning and practicing new python skills on `Kaggle`.
 
-### Geospatial Analysis
+## Geospatial Analysis
   
   #### Why I choose this chapter?
    - Need to be used on another project.
